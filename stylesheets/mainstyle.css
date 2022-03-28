@@ -1,0 +1,84 @@
+.menu {
+    background-color: #e9ffe9;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+header, footer {
+    display:flex;
+    font-size:20px;
+    justify-content:center;
+}
+
+.content {
+    background-color:#e9ffe9;
+    border:1px solid green;
+    border-radius:5px;
+    font-size:20px;
+    color:black;
+    padding:10px;
+}
+
+.formbox {
+    border:1px solid darkgreen; 
+    padding:5px;
+     border-radius:10px; 
+}
+
+#tableaubilan th, td {
+    border:1px solid black;
+    padding:5px;
+    width:500px;
+    height:200px;
+}
+
+#suggestionsAliments {
+    position:absolute;
+    top:600px;
+    left:80%;
+    width:300px;
+    height:200px;
+    z-index:1;
+    overflow-y:auto;
+    border:1px solid rgb(2, 14, 0);
+    padding:20px;
+    opacity:0%;
+    transition:opacity 100ms ease-in 10ms;
+    background-color:white;
+}
+
+.suggestion:hover {
+    color:#28a745;
+
+}
+
+.suggestion {
+    color:black;
+    transition:color 100ms ease-in 10ms;
+}
+
+.aliment {
+	background-color:lightgrey;
+	padding:5px;
+	border:1px solid darkgrey;
+	
+}
+
+.rectangleBilan {
+    padding:10px;
+    border:1px solid black;
+    width:700px;
+    margin-top:15px;
+}
+
+.proportionNutri {
+    width:300px;
+    border:1px solid black;
+}
+
+.h4borderbottom {
+    border-bottom: 1px solid darkgreen;
+    padding-bottom:10px;
+    width: 500px;
+}
